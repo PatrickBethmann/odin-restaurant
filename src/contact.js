@@ -8,7 +8,13 @@ function showContact() {
     mainHeading.classList.add("section", "main-heading");
     mainHeading.textContent = "Contact";
 
-    parent.append(mainHeading);
+    // Description
+    const description = document.createElement("div");
+    description.id = "description";
+    description.classList.add("section");
+    description.textContent = "Welcome to our Restaurant page";
+
+    parent.append(mainHeading, description);
 }
 
 export default showContact;
