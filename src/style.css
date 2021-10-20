@@ -10,6 +10,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 40px;
 }
 
 nav {
@@ -19,7 +20,6 @@ nav {
     background-color: aliceblue;
     height: 70px;
 }
-
 nav ul {
     display: flex;
     gap: 50px;
@@ -29,10 +29,19 @@ nav ul {
     padding: 20px;
 }
 
+.main-heading {
+    font-size: 4em;
+}
 .section {
-    background-color: blueviolet;
-    border: 2px solid border;
+    background-color: aliceblue;
+    border: 2px solid black;
     height: 200px;
-    width: 200px;
+    width: 100%;
     margin: 20px;
+    text-align: center;
+}
+
+.thumbnail {
+    height: 400px;
+    width: auto;
 }
